@@ -1,0 +1,38 @@
+{
+  "name": "authdemo",
+  "version": "1.0.0",
+  "description": "Auth demo for FE team",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "build": "npx tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quantruong-2518/AuthNode.git"
+  },
+  "keywords": [
+    "Node",
+    "Auth",
+    "Session",
+    "Cookie"
+  ],
+  "author": "Steve Truong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quantruong-2518/AuthNode/issues"
+  },
+  "homepage": "https://github.com/quantruong-2518/AuthNode#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.33",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1"
+  }
+}
