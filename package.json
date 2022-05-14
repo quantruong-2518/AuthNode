@@ -2,9 +2,9 @@
   "name": "authdemo",
   "version": "1.0.0",
   "description": "Auth demo for FE team",
-  "main": "index.ts",
+  "main": "app.ts",
   "scripts": {
-    "dev": "nodemon src/index.ts",
+    "dev": "nodemon src/app.ts",
     "build": "npx tsc",
     "test": "jest"
   },
